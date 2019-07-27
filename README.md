@@ -1,2 +1,2 @@
-# Andrew-Cosmos.github.io
+# Farrukh (c)
 The short and not harmful regime of sleep
