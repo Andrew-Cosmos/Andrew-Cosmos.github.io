@@ -1,0 +1,112 @@
+*{
+	/*outline: 1px #f00 solid;*/
+	box-sizing:  border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, sans-serif;
+	color: #333;
+}
+														/*title of header*/
+header h1{
+	text-align: center;
+	line-height: 1.5;
+	font-size: 24px;
+	margin: 80px 0 60px 0;
+}
+.earn_million{
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+														/*video and form*/
+.content_in_header{
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	text-align: center;
+}
+iframe{
+	width: 600px;
+	height: 320px;
+	margin-right: 70px;
+}
+.form{
+	border: 5px solid #2727d9;
+	padding: 40px 50px 50px 50px;
+}
+.form h3{
+	font: bold 20px Tahoma;
+}
+input{
+	display: block;
+	width: 300px;
+	padding: 10px 8px;
+	margin-top: 25px;
+}
+input:focus{
+	outline: 2px solid rgba(255, 0, 0, .7);
+}
+.button_in_form{
+	background: #2727d9;
+	padding: 10px 15px;
+	color: #fff;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.input2{
+	margin-bottom: 45px;
+}
+.button_in_form:hover{
+	background: rgb(0,11,229);
+}
+.button_in_form:active{
+	background: rgba(57,69,229, .8);
+}
+											/*title above  the icons, icons and their captions*/
+.main{
+	margin-top: 50px;
+}
+.main h2{
+	text-transform: uppercase;
+	font: bold 20px Tahoma;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.feature{
+	display: flex;
+	justify-content: center;
+}
+img{
+	width: 70px;
+	margin-bottom: 10px;
+	margin-right: 150px;
+}
+.icon4{
+	margin-right: -150px;	
+}
+.img_plane{
+	background: url("img/plane.svg");
+	background-position: center;
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+}
+p, .initaiation{                        				  /* p and its second string */
+	display: block;
+	text-align: center;
+}
+p{
+	margin-left: -150px;
+}
+.last_button{
+	padding: 10px;
+	background: #2727d9;
+	color: #FFF;
+}
+.get_instruction{
+	display: flex;
+	justify-content: center;
+	margin: 50px auto 40px;
+}
